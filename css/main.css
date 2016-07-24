@@ -1,0 +1,59 @@
+.container{
+    margin-top:10px;
+}
+
+#map {
+    width: 100%;
+    min-height: 500px;
+}
+
+.toggle-address-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#address-container{
+    padding: 0px;
+}
+
+.inactive {
+    display: none;
+}
+
+
+.search-form{
+    display: flex;
+}
+
+.search-form input{
+    float: left;
+    width: 70%;
+}
+
+.search-form button{
+    width: 25%;
+    float: left;
+}
+
+#address-list-container{
+    clear: both;
+}
+
+#address-list-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.foursquare-venues-container{
+    padding: 0px;
+}
+
+.foursquare-venues-list{
+    padding: 0px;
+    list-style: none;
+}
+
+.locationclicked{
+    background-color: gray;
+    color: white
+}
