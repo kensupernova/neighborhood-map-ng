@@ -342,7 +342,7 @@ app.controller("myController", function($scope){
         
         if(value){
             console.log("filtervalue=", value);
-            value = value.trim();
+            // value = value.trim();
             var pattern = new RegExp(value, "i");
             $scope.addressList = initialDataList.filter(function(value){
                 // console.log(value.address);
